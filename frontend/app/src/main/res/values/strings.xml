@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cantara</string>
+    <string name="history">History</string>
+    <string name="tap_to_search">Tap to find the song</string>
+</resources>

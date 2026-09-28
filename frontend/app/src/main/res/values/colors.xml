@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyan">#09D8C7</color>
+    <color name="Deep_Slate_Blue">#17364F</color>
+    <color name="Midnight_Navy">#0D1A2F</color>
+    <color name="Dark_Plum">#411E3A</color>
+    <color name="Crimson_Red">#BD0927</color>
+    <color name="Dark_Burgundy">#500A1F</color>
+    <color name="black">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

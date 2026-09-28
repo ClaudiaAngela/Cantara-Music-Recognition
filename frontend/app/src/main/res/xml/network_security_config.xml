@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Permite HTTP local pentru development -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.84.124.180</domain>
+        <domain includeSubdomains="true">10.84.124.35</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+
+    <!-- Forțează HTTPS pentru restul -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">example.com</domain>
+    </domain-config>
+</network-security-config>
