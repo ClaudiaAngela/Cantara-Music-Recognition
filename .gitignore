@@ -1,0 +1,11 @@
+backend/.venv/ 
+backend/.env 
+backend/__pycache__/ 
+backend/.idea/ 
+backend/debug_plots/ 
+frontend/.gradle/ 
+frontend/.idea/ 
+frontend/.kotlin/ 
+frontend/local.properties 
+frontend/build/ 
+frontend/app/build/ 

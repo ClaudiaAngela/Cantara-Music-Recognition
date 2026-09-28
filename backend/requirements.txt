@@ -1,0 +1,6 @@
+librosa
+soundfile
+requests
+fastapi
+uvicorn
+python-multipart
