@@ -9,6 +9,7 @@ The project features a native **Android client (Kotlin)** and an asynchronous **
 ## Architecture Overview
 
 Cantara decouples audio acquisition and user interaction from heavy computational workloads through a distributed client-server model:
+```text
 [ Android Client (Kotlin) ]
 │
 │  HTTP POST (Multipart FLAC, 44.1 kHz, 16-bit mono)
@@ -31,7 +32,7 @@ Cantara decouples audio acquisition and user interaction from heavy computationa
 │
 ▼ JSON Response (Track metadata, artwork, preview link, confidence)
 [ Android Client ] ──► UI Display & Persistent Local History
----
+```
 
 ## Key Features
 
@@ -74,16 +75,16 @@ Cantara-Music-Recognition/
 ```
 Tech Stack
 Client (Android)
-**Language & SDK: Kotlin, Android SDK (API 26+)
-**UI & Architecture: Material Design Components, View Binding, AndroidX
-**Audio Capture & Codec: Android AudioRecord (PCM 16-bit, 44.1 kHz mono) and FFmpegKit (FLAC compression)
-**Networking & Data: Retrofit 2, OkHttp 3, Gson, Glide
+* **Language & SDK: Kotlin, Android SDK (API 26+)
+* **UI & Architecture: Material Design Components, View Binding, AndroidX
+* **Audio Capture & Codec: Android AudioRecord (PCM 16-bit, 44.1 kHz mono) and FFmpegKit (FLAC compression)
+* **Networking & Data: Retrofit 2, OkHttp 3, Gson, Glide
 
 Backend (Python)
-**Framework: FastAPI, Uvicorn (ASGI)
-**DSP & Audio: Librosa, SciPy, Pedalboard, SoundFile
-**Machine Learning: OpenAI Whisper (Speech-to-Text)
-**APIs & Search: ACRCloud Identification API, Genius API (via lyricsgenius), RapidFuzz, Spotify Web API
+* **Framework: FastAPI, Uvicorn (ASGI)
+* **DSP & Audio: Librosa, SciPy, Pedalboard, SoundFile
+* **Machine Learning: OpenAI Whisper (Speech-to-Text)
+* **APIs & Search: ACRCloud Identification API, Genius API (via lyricsgenius), RapidFuzz, Spotify Web API
 
 Getting Started
 1. Backend Setup
