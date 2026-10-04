@@ -125,9 +125,9 @@ Run the server:
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 2. Android Client Setup
-**Open the frontend/ directory in Android Studio.
-**Ensure your Android device and development machine are connected to the same local network.
-**Update the backend base URL in your networking configuration to your machine's local IP address:
+* Open the frontend/ directory in Android Studio.
+* Ensure your Android device and development machine are connected to the same local network.
+* Update the backend base URL in your networking configuration to your machine's local IP address:
 
 ```Kotlin
 private const val BASE_URL = "http://<YOUR_LOCAL_IP>:8000/"
