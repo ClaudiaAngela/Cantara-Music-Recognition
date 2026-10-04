@@ -75,16 +75,16 @@ Cantara-Music-Recognition/
 ```
 Tech Stack
 Client (Android)
-* **Language & SDK: Kotlin, Android SDK (API 26+)
-* **UI & Architecture: Material Design Components, View Binding, AndroidX
-* **Audio Capture & Codec: Android AudioRecord (PCM 16-bit, 44.1 kHz mono) and FFmpegKit (FLAC compression)
-* **Networking & Data: Retrofit 2, OkHttp 3, Gson, Glide
+* Language & SDK: Kotlin, Android SDK (API 26+)
+* UI & Architecture: Material Design Components, View Binding, AndroidX
+* Audio Capture & Codec: Android AudioRecord (PCM 16-bit, 44.1 kHz mono) and FFmpegKit (FLAC compression)
+* Networking & Data: Retrofit 2, OkHttp 3, Gson, Glide
 
 Backend (Python)
-* **Framework: FastAPI, Uvicorn (ASGI)
-* **DSP & Audio: Librosa, SciPy, Pedalboard, SoundFile
-* **Machine Learning: OpenAI Whisper (Speech-to-Text)
-* **APIs & Search: ACRCloud Identification API, Genius API (via lyricsgenius), RapidFuzz, Spotify Web API
+* Framework: FastAPI, Uvicorn (ASGI)
+* DSP & Audio: Librosa, SciPy, Pedalboard, SoundFile
+* Machine Learning: OpenAI Whisper (Speech-to-Text)
+* APIs & Search: ACRCloud Identification API, Genius API (via lyricsgenius), RapidFuzz, Spotify Web API
 
 Getting Started
 1. Backend Setup
